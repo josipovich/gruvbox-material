@@ -101,9 +101,9 @@ Comment                 grey            none            italic
 SpecialComment          grey            none            italic
 Ignore                  light           none
 #if get(g:, 'gruvbox_material_enable_bold', 0)
-    Error                   red             dark0           bold,reverse
+    Error                   none            darkred         bold
     Function                green           none            bold
 #else
-    Error                   red             dark0           reverse
+    Error                   none            darkred
     Function                green           none
 #endif

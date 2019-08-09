@@ -37,6 +37,15 @@ rstDirective -> Red
 rstTableLines -> Grey
 rstEscapeInlineLiteral -> Yellow
 #}}}
+# LaTex{{{
+texStatement -> Green
+texOnlyMath -> Grey
+texDefName -> Yellow
+texNewCmd -> Orange
+texCmdName -> Blue
+texBeginEnd -> Red
+texBeginEndName -> Blue
+#}}}
 # Html: {{{
 htmlTagName -> Blue
 htmlArg -> Orange
