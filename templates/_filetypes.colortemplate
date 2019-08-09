@@ -20,11 +20,11 @@ mkdRule -> Purple
 mkdDelimiter -> Grey
 mkdId -> Yellow
 # }}}
-# # ReStructuredText{{{
-# rstDirective -> Red
-# rstTableLines -> Grey
-# rstEscapeInlineLiteral -> Yellow
-# #}}}
+# ReStructuredText{{{
+rstSubstitutionReference -> Blue
+rstInterpretedTextOrHyperlinkReference -> Aqua
+rstTableLines -> Grey
+#}}}
 # # LaTex{{{
 # texStatement -> Green
 # texOnlyMath -> Grey
