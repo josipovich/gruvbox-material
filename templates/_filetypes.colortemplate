@@ -56,15 +56,6 @@ xmlDocTypeKeyword -> Purple
 xmlCdataStart -> Grey
 xmlCdataCdata -> Purple
 # # }}}
-# # C: {{{
-# cOperator -> Purple
-# cppOperator -> Purple
-# cStructure -> Orange
-# # }}}
-# # ObjectiveC: {{{
-# objcTypeModifier -> Red
-# objcDirective -> Blue
-# # }}}
 # # Python: {{{
 # pythonBuiltin -> Orange
 # pythonBuiltinObj -> Orange
