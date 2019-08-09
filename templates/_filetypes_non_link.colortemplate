@@ -18,7 +18,7 @@ rstStandaloneHyperlink purple none underline
 rstSections orange none bold
 #}}}
 # Html: {{{
-htmlLink lightgrey none underline
+htmlLink none none underline
 htmlBold none none bold
 htmlBoldUnderline none none bold,underline
 htmlBoldItalic none none bold,italic
