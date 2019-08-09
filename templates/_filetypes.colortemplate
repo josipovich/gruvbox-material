@@ -25,15 +25,16 @@ rstSubstitutionReference -> Blue
 rstInterpretedTextOrHyperlinkReference -> Aqua
 rstTableLines -> Grey
 #}}}
-# # LaTex{{{
-# texStatement -> Green
-# texOnlyMath -> Grey
-# texDefName -> Yellow
-# texNewCmd -> Orange
-# texCmdName -> Blue
-# texBeginEnd -> Red
-# texBeginEndName -> Blue
-# #}}}
+# LaTex{{{
+texStatement -> Green
+texOnlyMath -> Grey
+texDefName -> Yellow
+texNewCmd -> Orange
+texCmdName -> Blue
+texBeginEnd -> Red
+texBeginEndName -> Blue
+texDocType -> Orange
+#}}}
 # # Html: {{{
 # htmlTagName -> Blue
 # htmlArg -> Orange
