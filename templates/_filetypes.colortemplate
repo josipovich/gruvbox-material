@@ -22,6 +22,7 @@ markdownLinkText -> Aqua
 markdownUrlTitleDelimiter -> Green
 markdownIdDeclaration -> markdownLinkText
 markdownBoldDelimiter -> Grey
+
 mkdBold -> Grey
 mkdLink -> Aqua
 mkdCodeDelimiter -> Aqua
@@ -29,6 +30,7 @@ mkdHeading -> Orange
 mkdListItem -> Red
 mkdDelimiter -> Grey
 mkdId -> Yellow
+mkdRule -> Grey
 # }}}
 # Html: {{{
 htmlTagName -> Blue
