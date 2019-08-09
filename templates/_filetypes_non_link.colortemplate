@@ -22,14 +22,14 @@ htmlH1 orange none bold
 htmlH2 yellow none bold
 htmlH3 aqua none bold
 htmlH4 green none bold
-# htmlLink none none underline
-# htmlBold none none bold
-# htmlBoldUnderline none none bold,underline
-# htmlBoldItalic none none bold,italic
-# htmlBoldUnderlineItalic none none bold,underline,italic
-# htmlUnderline none none underline
-# htmlUnderlineItalic none none underline,italic
-# htmlItalic none none italic
+htmlLink none none underline
+htmlBold none none bold
+htmlBoldUnderline none none bold,underline
+htmlBoldItalic none none bold,italic
+htmlBoldUnderlineItalic none none bold,underline,italic
+htmlUnderline none none underline
+htmlUnderlineItalic none none underline,italic
+htmlItalic none none italic
 # # }}}
 # # Vim: {{{
 # vimCommentTitle lightgrey none bold,italic

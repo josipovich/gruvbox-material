@@ -36,14 +36,12 @@ texBeginEndName -> Blue
 texDocType -> Orange
 #}}}
 # # Html: {{{
-# htmlTagName -> Blue
-# htmlArg -> Orange
-# htmlScriptTag -> Purple
-# htmlSpecialTagName -> Blue
-# htmlSpecialChar -> Red
-# htmlTagN -> White
-# htmlTag -> AquaBold
-# htmlEndTag -> AquaBold
+htmlTag -> Orange
+htmlEndTag -> Yellow
+htmlTagName -> Orange
+htmlArg -> Aqua
+htmlScriptTag -> Purple
+htmlSpecialTagName -> Blue
 # # }}}
 # # Xml: {{{
 # xmlEqual -> Blue
