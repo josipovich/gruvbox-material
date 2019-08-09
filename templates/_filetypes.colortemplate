@@ -35,7 +35,7 @@ texBeginEnd -> Red
 texBeginEndName -> Blue
 texDocType -> Orange
 #}}}
-# # Html: {{{
+# Html: {{{
 htmlTag -> Orange
 htmlEndTag -> Yellow
 htmlTagName -> Orange
@@ -43,25 +43,18 @@ htmlArg -> Aqua
 htmlScriptTag -> Purple
 htmlSpecialTagName -> Blue
 # # }}}
-# # Xml: {{{
-# xmlEqual -> Blue
-# xmlDocTypeDecl -> Grey
-# xmlDocTypeKeyword -> Purple
-# xmlCdataStart -> Grey
-# xmlCdataCdata -> Purple
-# dtdFunction -> Grey
-# dtdTagName -> Purple
-# xmlAttrib -> Orange
-# xmlProcessingDelim -> Grey
-# dtdParamEntityPunct -> Grey
-# dtdParamEntityDPunct -> Grey
-# xmlAttribPunct -> Grey
-# xmlEntity -> Red
-# xmlEntityPunct -> Red
-# xmlTag -> AquaBold
-# xmlEndTag -> AquaBold
-# xmlTagName -> AquaBold
-# docbkKeyword -> AquaBold
+# Xml: {{{
+xmlTag -> Orange
+xmlEndTag -> Yellow
+xmlTagName -> Orange
+xmlEqual -> Orange
+xmlAttrib -> Aqua
+xmlEntity -> Red
+xmlEntityPunct -> Red
+xmlDocTypeDecl -> Grey
+xmlDocTypeKeyword -> Purple
+xmlCdataStart -> Grey
+xmlCdataCdata -> Purple
 # # }}}
 # # C: {{{
 # cOperator -> Purple

@@ -17,7 +17,7 @@ mkdItalic grey none italic
 # ReStructuredText{{{
 rstStandaloneHyperlink purple none underline
 #}}}
-# # Html: {{{
+# Html: {{{
 htmlH1 orange none bold
 htmlH2 yellow none bold
 htmlH3 aqua none bold
