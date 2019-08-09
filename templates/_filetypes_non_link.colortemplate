@@ -1,36 +1,41 @@
 # vim: ft=colortemplate fdm=marker cc=22
 
 # Markdown: {{{
-markdownH1 green none bold
-markdownH2 green none bold
-markdownH3 yellow none bold
-markdownH4 yellow none bold
-markdownUrl purple none underline
+markdownH1 orange none bold
+markdownH2 yellow none bold
+markdownH3 aqua none bold
+markdownH4 green none bold
+markdownUrl blue none underline
 markdownItalic none none italic
 markdownBold none none bold
 markdownItalicDelimiter grey none italic
-mkdURL purple none underline
+
+mkdURL blue none underline
 mkdInlineURL purple none underline
 mkdItalic grey none italic
 # }}}
-# ReStructuredText{{{
-rstStandaloneHyperlink purple none underline
-rstSections orange none bold
-#}}}
-# Html: {{{
-htmlLink none none underline
-htmlBold none none bold
-htmlBoldUnderline none none bold,underline
-htmlBoldItalic none none bold,italic
-htmlBoldUnderlineItalic none none bold,underline,italic
-htmlUnderline none none underline
-htmlUnderlineItalic none none underline,italic
-htmlItalic none none italic
-# }}}
-# Vim: {{{
-vimCommentTitle lightgrey none bold,italic
-# }}}
-# Help{{{
-helpURL aqua none underline
-helpNote purple none bold
-#}}}
+# # ReStructuredText{{{
+# rstStandaloneHyperlink purple none underline
+# rstSections orange none bold
+# #}}}
+# # Html: {{{
+htmlH1 orange none bold
+htmlH2 yellow none bold
+htmlH3 aqua none bold
+htmlH4 green none bold
+# htmlLink none none underline
+# htmlBold none none bold
+# htmlBoldUnderline none none bold,underline
+# htmlBoldItalic none none bold,italic
+# htmlBoldUnderlineItalic none none bold,underline,italic
+# htmlUnderline none none underline
+# htmlUnderlineItalic none none underline,italic
+# htmlItalic none none italic
+# # }}}
+# # Vim: {{{
+# vimCommentTitle lightgrey none bold,italic
+# # }}}
+# # Help{{{
+# helpURL aqua none underline
+# helpNote purple none bold
+# #}}}
