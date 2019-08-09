@@ -4,17 +4,20 @@
 # This is for better loading time.
 
 # vim-plug{{{
-plug2 -> Aqua
-plugBracket -> Blue
-plugName -> Green
-plugH2 -> Purple
+plug2 -> Green
+plugBracket -> Grey
+plugName -> Aqua
+plugDash -> Orange
 plugError -> Red
 plugNotLoaded -> Grey
 plugRelDate -> Grey
-plugStar -> Blue
-plugUpdate -> Aqua
-plugMessage -> Purple
+plugH2 -> Orange
+plugMessage -> Orange
+plugStar -> Yellow
+plugUpdate -> Blue
 plugDeleted -> Grey
+plugEdge -> Yellow
+plugSha -> Green
 #}}}
 # EasyMotion: {{{
 EasyMotionTarget -> Search
@@ -36,18 +39,17 @@ let g:fzf_colors = {
       \ 'hl':      ['fg', 'Green'],
       \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
       \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-      \ 'hl+':     ['fg', 'Green'],
+      \ 'hl+':     ['fg', 'Aqua'],
       \ 'info':    ['fg', 'Aqua'],
-      \ 'prompt':  ['fg', 'Red'],
+      \ 'prompt':  ['fg', 'Orange'],
       \ 'pointer': ['fg', 'Blue'],
-      \ 'marker':  ['fg', 'Orange'],
+      \ 'marker':  ['fg', 'Yellow'],
       \ 'spinner': ['fg', 'Yellow'],
       \ 'header':  ['fg', 'Grey']
       \ }
 endverbatim
 #}}}
 # CtrlP{{{
-CtrlPMatch -> Yellow
 CtrlPNoEntries -> Red
 CtrlPPrtCursor -> Blue
 #}}}
@@ -61,12 +63,13 @@ endverbatim
 # Startify {{{
 StartifyBracket -> Grey
 StartifyFile -> White
-StartifyNumber -> Yellow
+StartifyNumber -> Red
 StartifyPath -> Green
-StartifySlash -> Green
-StartifySection -> Aqua
+StartifySlash -> Aqua
+StartifySection -> Blue
 StartifyHeader -> Orange
 StartifySpecial -> Grey
+StartifyFooter -> Grey
 # }}}
 # Dirvish {{{
 DirvishPathTail -> Aqua
@@ -86,7 +89,7 @@ netrwVersion -> Orange
 # }}}
 # NERDTree {{{
 NERDTreeDir -> Green
-NERDTreeDirSlash -> Green
+NERDTreeDirSlash -> Aqua
 
 NERDTreeOpenable -> Orange
 NERDTreeClosable -> Orange
@@ -126,7 +129,6 @@ CocCodeLens          -> Grey
 CocErrorSign         -> ALEErrorSign
 CocWarningSign       -> ALEWarningSign
 CocInfoSign          -> ALEInfoSign
-CocHintSign          -> Label
 CocErrorHighlight    -> ALEError
 CocWarningHighlight  -> ALEWarning
 CocInfoHighlight     -> ALEInfo
@@ -138,9 +140,9 @@ CocCodeLens          -> ALEVirtualTextInfo
 #}}}
 # QuickMenu{{{
 QuickmenuOption -> Green
-QuickmenuNumber -> Yellow
+QuickmenuNumber -> Red
 QuickmenuBracket -> Grey
-QuickmenuHelp -> Blue
+QuickmenuHelp -> Green
 QuickmenuSpecial -> Purple
 QuickmenuHeader -> Orange
 #}}}

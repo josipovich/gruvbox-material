@@ -1,8 +1,8 @@
 # vim: ft=colortemplate fdm=marker cc=22
 
 # vim-plug{{{
-plug1 orange none bold
-plugNumber yellow none bold
+plug1 purple none bold
+plugNumber aqua none bold
 #}}}
 # Indent Guides {{{
 #if get(g:, 'indent_guides_auto_colors', 0)
@@ -76,6 +76,7 @@ ShowMarksHLo blue dark1
 ShowMarksHLm blue dark1
 # }}}
 # CtrlP {{{
+CtrlPMatch green none bold
 CtrlPPrtBase dark2 none
 CtrlPLinePre dark2 none
 CtrlPMode1 blue dark2 bold
@@ -91,9 +92,6 @@ Lf_hl_match3 purple none bold
 Lf_hl_match4 orange none bold
 Lf_hl_matchRefine red none bold
 #}}}
-# Startify {{{
-StartifyFooter grey none
-# }}}
 # Vimshell {{{
 verbatim
 let g:vimshell_escape_colors = [
@@ -123,7 +121,8 @@ multiple_cursors_cursor none none reverse
 multiple_cursors_visual none dark2
 # }}}
 # CoC{{{
-CocHighlightText        none              none              bold
+CocHighlightText none none bold
+CocHintSign aqua dark1
 #}}}
 # vim-matchup{{{
 MatchParenCur           none            none            bold
