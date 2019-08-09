@@ -32,6 +32,11 @@ mkdDelimiter -> Grey
 mkdId -> Yellow
 mkdRule -> Grey
 # }}}
+# ReStructuredText{{{
+rstDirective -> Red
+rstTableLines -> Grey
+rstEscapeInlineLiteral -> Yellow
+#}}}
 # Html: {{{
 htmlTagName -> Blue
 htmlArg -> Orange

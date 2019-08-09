@@ -13,6 +13,10 @@ mkdURL purple none underline
 mkdInlineURL purple none underline
 mkdItalic grey none italic
 # }}}
+# ReStructuredText{{{
+rstStandaloneHyperlink purple none underline
+rstSections orange none bold
+#}}}
 # Html: {{{
 htmlLink lightgrey none underline
 htmlBold none none bold
