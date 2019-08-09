@@ -67,43 +67,39 @@ QuickFixLine            yellow          dark0           reverse
 Debug                   orange          none
 
 # Syntax
-Title                   green           none            bold
-Conditional             red             none
-Repeat                  red             none
-Label                   red             none
 Exception               red             none
 Keyword                 red             none
 Statement               red             none
-Typedef                 yellow          none
-Type                    yellow          none
+Conditional             red             none
+Repeat                  red             none
+Title                   orange          none            bold
+Label                   orange          none
 StorageClass            orange          none
-Delimiter               light           none
-Special                 orange          none
-Tag                     orange          none
 Operator                orange          none
-SpecialChar             orange          none
+Tag                     orange          none
+Structure               orange          none
+Type                    yellow          none
+Typedef                 yellow          none
+Special                 yellow          none
+SpecialChar             yellow          none
 String                  green           none
-PreProc                 aqua            none
-Macro                   aqua            none
+Boolean                 green           none
+Character               green           none
+Number                  green           none
+Float                   green           none
 Define                  aqua            none
-Include                 aqua            none
-PreCondit               aqua            none
-Structure               aqua            none
+Function                aqua            none
+Constant                aqua            none
+Macro                   blue            none
 Identifier              blue            none
+PreProc                 purple          none
+Include                 purple          none
+PreCondit               purple          none
+
 Underlined              blue            none            underline
-Constant                purple          none
-Boolean                 purple          none
-Character               purple          none
-Number                  purple          none
-Float                   purple          none
 SpecialKey              blue            none
 Comment                 grey            none            italic
 SpecialComment          grey            none            italic
+Delimiter               light           none
 Ignore                  light           none
-#if get(g:, 'gruvbox_material_enable_bold', 0)
-    Error                   none            darkred         bold
-    Function                green           none            bold
-#else
-    Error                   none            darkred
-    Function                green           none
-#endif
+Error                   none            darkred
