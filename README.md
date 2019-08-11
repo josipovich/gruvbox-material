@@ -4,9 +4,15 @@
 | 𝒎𝒆𝒅𝒊𝒖𝒎 | ![original-medium](https://user-images.githubusercontent.com/37491630/61802005-45379300-ae1f-11e9-91bb-012e058eb906.png) | ![material-medium](https://user-images.githubusercontent.com/37491630/62703751-667caf80-b9d9-11e9-9245-99fdf87bacef.png) |
 |  𝒔𝒐𝒇𝒕  |  ![original-soft](https://user-images.githubusercontent.com/37491630/61801978-3bae2b00-ae1f-11e9-9b7b-33105484be47.png)  |  ![material-soft](https://user-images.githubusercontent.com/37491630/62703755-6977a000-b9d9-11e9-9a73-cbbc69ceda8f.png)  |
 
-Gruvbox Material is based on Gruvbox, but with a very different color palette, almost all foreground colors are adjusted.
+The syntax highlighting logic used in this branch is as follows:
 
-Although the palette is different, its extended highlight groups are based on gruvbox, and I will periodically merge changes from [gruvbox-community/gruvbox](https://github.com/gruvbox-community/gruvbox).
+- **Red**`#ea6962`: Keyword, Statement, Conditional, Repeat, Exception
+- **Orange**`#e78a4e`: StorageClass, Operator, Structure, Label, Title, Tag
+- **Yellow**`#e3a84e`: Type, Typedef, Special, SpecialChar
+- **Green**`#a9b665`: String, Boolean, Character, Number, Float
+- **Aqua**`#89b482`: Define, Function, Constant
+- **Blue**`#7daea3`: Identifier, Macro
+- **Purple**`#d3869b`: PreProc, Include, PreCondit
 
 # Installation
 
@@ -15,21 +21,21 @@ Although the palette is different, its extended highlight groups are based on gr
 Take [vim-plug](https://github.com/junegunn/vim-plug) for example:
 
 ```vim
-Plug 'sainnhe/gruvbox-material'
+Plug 'sainnhe/gruvbox-material', { 'branch': 'neosyn' }
 ```
 
 For better syntax highlighting support, please install [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot).
 
 ## Manually
 
-1. Clone this repository.
+1. Clone this repository and checkout this branch `git checkout neosyn`.
 2. Copy `/path/to/gruvbox-material/colors/*` to `~/.vim/colors/`
 3. To install [airline](https://github.com/vim-airline/vim-airline) theme, copy `/path/to/gruvbox-material/autoload/airline/themes/gruvbox_material.vim` to `~/.vim/autoload/airline/themes/gruvbox_material.vim`
 4. To install [lightline](https://github.com/itchyny/lightline.vim) theme, copy `/path/to/gruvbox-material/autoload/lightline/colorscheme/gruvbox_material.vim` to `~/.vim/autoload/lightline/colorscheme/gruvbox_material.vim`
 
 ## AUR
 
-There is a package available for Arch Linux users in AUR: [gruvbox-material-git](https://aur.archlinux.org/packages/gruvbox-material-git/)
+There is a package available for Arch Linux users in AUR: [gruvbox-material-neosyn-git](https://aur.archlinux.org/packages/gruvbox-material-neosyn-git/)
 
 # Usage
 
@@ -92,7 +98,6 @@ To apply it without reloading:
 # Customization
 
 -   By default, italic is enabled. To disable italic, add `let g:gruvbox_material_kill_italic=1` to your vimrc.
--   By default, bold is partly enabled. To completely enable bold, add `let g:gruvbox_material_enable_bold=1` to your vimrc.
 -   By default, bold is enabled in lightline color scheme. To disable bold in lightline color scheme, add `let g:gruvbox_material_lightline_kill_bold=1` to your vimrc.
 
 # Contribution
