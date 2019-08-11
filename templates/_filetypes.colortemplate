@@ -92,34 +92,43 @@ jsModuleKeyword -> Aqua
 jsFuncArgs -> Green
 jsParen -> Green
 # }}}
-# # TypeScript: {{{
-# typescriptReserved -> Aqua
-# typescriptLabel -> Aqua
-# typescriptFuncKeyword -> Aqua
-# typescriptIdentifier -> Orange
-# typescriptBraces -> White
-# typescriptEndColons -> White
-# typescriptDOMObjects -> White
-# typescriptAjaxMethods -> White
-# typescriptGlobalObjects -> White
-# typescriptParens -> White
-# typescriptOpSymbols -> Green
-# typescriptLogicSymbols -> Purple
-# typescriptInterpolation -> Aqua
-# typescriptHtmlElemProperties -> White
-# typescriptNull -> Purple
-# typescriptInterpolationDelimiter -> Aqua
-# typescriptDocSeeTag -> Comment
-# typescriptDocParam -> Comment
-# typescriptDocTags -> vimCommentTitle
-# # }}}
-# # JSX: maxmellon/vim-jsx-pretty: {{{
-# jsxTagName -> Aqua
-# jsxComponentName -> Green
-# jsxCloseString -> LightGrey
-# jsxAttrib -> Yellow
-# jsxEqual -> Aqua
-# #}}}
+# TypeScript: {{{
+typescriptBraces -> White
+typescriptEndColons -> White
+typescriptParens -> White
+typescriptStatement -> Purple
+typescriptLogicSymbols -> Aqua
+typescriptNull -> Aqua
+typescriptOperator -> Aqua
+typescriptExceptions -> Purple
+typescriptInterpolation -> Aqua
+typescriptInterpolationDelimiter -> Aqua
+
+typescriptImport -> Purple
+typescriptBOM -> Aqua
+typescriptVariable -> Orange
+typescriptVariableDeclaration -> Blue
+typescriptAssign -> Orange
+typescriptExport -> Purple
+typescriptAliasDeclaration -> Aqua
+typescriptDefault -> Orange
+typescriptReadonlyModifier -> Orange
+typescriptIdentifier -> Blue
+typescriptArrowFunc -> Aqua
+typescriptBinaryOp -> Orange
+typescriptFuncComma -> White
+typescriptDOMDocMethod -> Yellow
+typescriptEnum -> Aqua
+typescriptArrowFuncArg -> Aqua
+typescriptBOMNavigatorProp -> Aqua
+typescriptCall -> Blue
+typescriptOptionalMark -> Orange
+typescriptTypeReference -> Aqua
+typescriptCase -> Orange
+typescriptObjectLabel -> Blue
+typescriptTypeParameter -> Yellow
+typescriptCastKeyword -> Orange
+# }}}
 # # Python: {{{
 # pythonBuiltin -> Orange
 # pythonBuiltinObj -> Orange
