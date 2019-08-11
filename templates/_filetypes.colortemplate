@@ -129,6 +129,13 @@ typescriptObjectLabel -> Blue
 typescriptTypeParameter -> Yellow
 typescriptCastKeyword -> Orange
 # }}}
+# Dart{{{
+dartTypedef -> Red
+dartType -> Red
+dartKeyword -> Aqua
+dartCoreClasses -> Yellow
+dartInterpolation -> Blue
+#}}}
 # # Python: {{{
 # pythonBuiltin -> Orange
 # pythonBuiltinObj -> Orange
