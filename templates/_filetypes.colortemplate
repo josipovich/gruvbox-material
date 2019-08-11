@@ -68,11 +68,43 @@ cssProp -> Aqua
 cssCommonAttr -> Yellow
 cssPseudoClassId -> Blue
 cssPseudoClassFn -> Green
+cssPseudoClass -> Purple
 cssImportant -> Red
 cssSelectorOp -> Orange
 cssSelectorOp2 -> Orange
-cssColor -> White
+cssColor -> Green
+cssAttributeSelector -> Aqua
+cssUnitDecorators -> Orange
+cssNoise -> Grey
 # }}}
+# Sass{{{
+sassProperty -> Green
+sassAmpersand -> Orange
+sassClass -> Red
+sassClassChar -> Red
+sassMixing -> Green
+sassMixinName -> Orange
+sassCssAttribute -> Yellow
+sassInterpolationDelimiter -> Green
+sassFunction -> Yellow
+sassControl -> Red
+#}}}
+# Scss{{{
+scssSelectorName -> Red
+scssSelectorChar -> Red
+scssForKeyword -> Purple
+scssAttribute -> Orange
+scssInterpolationDelimiter -> Green
+scssMixinName -> Yellow
+scssFunctionName -> Yellow
+#}}}
+# Less{{{
+lessMixinChar -> Grey
+lessClass -> Red
+lessVariable -> Blue
+lessAmpersandChar -> Orange
+lessFunction -> Yellow
+#}}}
 # JavaScript: {{{
 javaScriptFunction -> Aqua
 javaScriptOperator -> Red
