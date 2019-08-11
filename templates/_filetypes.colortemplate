@@ -70,100 +70,28 @@ cssSelectorOp -> Orange
 cssSelectorOp2 -> Orange
 cssColor -> White
 # }}}
-# # JavaScript: {{{
-# javaScriptFunction -> Aqua
-# javaScriptIdentifier -> Red
-# javaScriptMember -> Blue
-# javaScriptNumber -> Purple
-# javaScriptNull -> Purple
-# javaScriptParens -> White
-# javaScriptBraces -> White
-# # }}}
-# # YAJS: {{{
-# javascriptImport -> Aqua
-# javascriptExport -> Aqua
-# javascriptClassKeyword -> Aqua
-# javascriptClassExtends -> Aqua
-# javascriptDefault -> Aqua
-# javascriptClassName -> Yellow
-# javascriptClassSuperName -> Yellow
-# javascriptGlobal -> Yellow
-# javascriptEndColons -> White
-# javascriptFuncArg -> White
-# javascriptGlobalMethod -> White
-# javascriptNodeGlobal -> White
-# javascriptBOMWindowProp -> White
-# javascriptArrayMethod -> White
-# javascriptArrayStaticMethod -> White
-# javascriptCacheMethod -> White
-# javascriptDateMethod -> White
-# javascriptMathStaticMethod -> White
-# javascriptURLUtilsProp -> White
-# javascriptBOMNavigatorProp -> White
-# javascriptDOMDocMethod -> White
-# javascriptDOMDocProp -> White
-# javascriptBOMLocationMethod -> White
-# javascriptBOMWindowMethod -> White
-# javascriptStringMethod -> White
-# javascriptVariable -> Orange
-# # javascriptVariable -> Red
-# # javascriptIdentifier -> Orange
-# # javascriptClassSuper -> Orange
-# javascriptIdentifier -> Orange
-# javascriptClassSuper -> Orange
-# # javascriptFuncKeyword -> Orange
-# # javascriptAsyncFunc -> Orange
-# javascriptFuncKeyword -> Aqua
-# javascriptAsyncFunc -> Aqua
-# javascriptClassStatic -> Orange
-# javascriptOperator -> Red
-# javascriptForOperator -> Red
-# javascriptYield -> Red
-# javascriptExceptions -> Red
-# javascriptMessage -> Red
-# javascriptTemplateSB -> Aqua
-# javascriptTemplateSubstitution -> White
-# # javascriptLabel -> Blue
-# # javascriptObjectLabel -> Blue
-# # javascriptPropertyName -> Blue
-# javascriptLabel -> White
-# javascriptObjectLabel -> White
-# javascriptPropertyName -> White
-# javascriptLogicSymbols -> Purple
-# javascriptArrowFunc -> Yellow
-# javascriptDocParamName -> LightGrey
-# javascriptDocTags -> LightGrey
-# javascriptDocNotation -> LightGrey
-# javascriptDocParamType -> LightGrey
-# javascriptDocNamedParamType -> LightGrey
-# javascriptBrackets -> White
-# javascriptDOMElemAttrs -> White
-# javascriptDOMEventMethod -> White
-# javascriptDOMNodeMethod -> White
-# javascriptDOMStorageMethod -> White
-# javascriptHeadersMethod -> White
-# javascriptAsyncFuncKeyword -> Red
-# javascriptAwaitFuncKeyword -> Red
-# # }}}
-# # PanglossJS: {{{
-# jsPrototype -> Yellow
-# jsOperator -> Orange
-# jsOperatorKeyword -> Red
-# jsClassKeyword -> Aqua
-# jsExtendsKeyword -> Aqua
-# jsExportDefault -> Aqua
-# jsTemplateBraces -> White
-# jsGlobalNodeObjects -> Blue
-# jsGlobalObjects -> Blue
-# jsFunction -> Aqua
-# jsFuncCall -> Blue
-# jsFuncParens -> White
-# jsParens -> White
-# jsNull -> Purple
-# jsUndefined -> Purple
-# jsClassDefinition -> Yellow
-# jsObjectKey -> GreenBold
-# # }}}
+# JavaScript: {{{
+javaScriptFunction -> Aqua
+javaScriptOperator -> Red
+javaScriptIdentifier -> Orange
+javaScriptMember -> Blue
+javaScriptNull -> Yellow
+javaScriptParens -> White
+javaScriptBraces -> White
+
+jsFunction -> Red
+jsThis -> Yellow
+jsGlobalNodeObjects -> Purple
+jsGlobalObjects -> Yellow
+jsArrowFunction -> Purple
+jsObjectProp -> Blue
+jsVariableDef -> Blue
+jsBlockLabel -> Orange
+jsFrom -> Red
+jsModuleKeyword -> Aqua
+jsFuncArgs -> Green
+jsParen -> Green
+# }}}
 # # TypeScript: {{{
 # typescriptReserved -> Aqua
 # typescriptLabel -> Aqua
