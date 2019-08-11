@@ -136,6 +136,22 @@ dartKeyword -> Aqua
 dartCoreClasses -> Yellow
 dartInterpolation -> Blue
 #}}}
+# CoffeeScript: {{{
+coffeeExtendedOp -> Orange
+coffeeSpecialOp -> White
+coffeeDotAccess -> Grey
+coffeeCurly -> White
+coffeeParen -> White
+coffeeBracket -> White
+coffeeCurlies -> Aqua
+coffeeParens -> Blue
+coffeeBrackets -> Green
+coffeeOperator -> Red
+coffeeInterp -> Aqua
+coffeeInterpDelim -> Aqua
+coffeeStatement -> Orange
+coffeeSpecialIdent -> Purple
+# }}}
 # # Python: {{{
 # pythonBuiltin -> Orange
 # pythonBuiltinObj -> Orange
@@ -171,14 +187,6 @@ dartInterpolation -> Blue
 # purescriptFunction -> White
 # purescriptConditional -> Orange
 # purescriptBacktick -> Orange
-# # }}}
-# # CoffeeScript: {{{
-# coffeeExtendedOp -> Orange
-# coffeeSpecialOp -> White
-# coffeeDotAccess -> Grey
-# coffeeCurly -> Orange
-# coffeeParen -> White
-# coffeeBracket -> Orange
 # # }}}
 # # Java: {{{
 # javaAnnotation -> Blue
