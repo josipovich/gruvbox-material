@@ -152,6 +152,14 @@ coffeeInterpDelim -> Aqua
 coffeeStatement -> Orange
 coffeeSpecialIdent -> Purple
 # }}}
+# PureScript: {{{
+purescriptModuleKeyword -> Purple
+purescriptModule -> Aqua
+purescriptModuleParams -> Blue
+purescriptAsKeyword -> Orange
+purescriptHidingKeyword -> Orange
+purescriptWhere -> Orange
+# }}}
 # # Python: {{{
 # pythonBuiltin -> Orange
 # pythonBuiltinObj -> Orange
@@ -170,23 +178,6 @@ coffeeSpecialIdent -> Purple
 # pythonRepeat -> Red
 # pythonDottedName -> GreenBold
 # pythonDot -> Grey
-# # }}}
-# # PureScript: {{{
-# purescriptModuleKeyword -> Aqua
-# purescriptModuleName -> White
-# purescriptWhere -> Aqua
-# purescriptDelimiter -> White
-# purescriptType -> White
-# purescriptImportKeyword -> Aqua
-# purescriptHidingKeyword -> Aqua
-# purescriptAsKeyword -> Aqua
-# purescriptStructure -> Aqua
-# purescriptOperator -> Orange
-# purescriptTypeVar -> White
-# purescriptConstructor -> White
-# purescriptFunction -> White
-# purescriptConditional -> Orange
-# purescriptBacktick -> Orange
 # # }}}
 # # Java: {{{
 # javaAnnotation -> Blue
