@@ -56,57 +56,20 @@ xmlDocTypeKeyword -> Purple
 xmlCdataStart -> Grey
 xmlCdataCdata -> Purple
 # # }}}
-# # Python: {{{
-# pythonBuiltin -> Orange
-# pythonBuiltinObj -> Orange
-# pythonBuiltinFunc -> Orange
-# pythonFunction -> Aqua
-# pythonDecorator -> Red
-# pythonInclude -> Include
-# pythonImport -> PreProc
-# pythonRun -> Blue
-# pythonCoding -> Blue
-# pythonOperator -> Orange
-# pythonException -> Red
-# pythonExceptions -> Purple
-# pythonBoolean -> Purple
-# pythonConditional -> Red
-# pythonRepeat -> Red
-# pythonDottedName -> GreenBold
-# pythonDot -> Grey
-# # }}}
-# # CSS: {{{
-# cssBraces -> White
-# cssFunctionName -> Yellow
-# cssIdentifier -> Orange
-# cssClassName -> Green
-# cssColor -> Blue
-# cssSelectorOp -> Blue
-# cssSelectorOp2 -> Blue
-# cssImportant -> Green
-# cssTextProp -> Aqua
-# cssAnimationProp -> Aqua
-# cssUIProp -> Yellow
-# cssTransformProp -> Aqua
-# cssTransitionProp -> Aqua
-# cssPrintProp -> Aqua
-# cssPositioningProp -> Yellow
-# cssBoxProp -> Aqua
-# cssFontDescriptorProp -> Aqua
-# cssFlexibleBoxProp -> Aqua
-# cssBorderOutlineProp -> Aqua
-# cssBackgroundProp -> Aqua
-# cssMarginProp -> Aqua
-# cssListProp -> Aqua
-# cssTableProp -> Aqua
-# cssFontProp -> Aqua
-# cssPaddingProp -> Aqua
-# cssDimensionProp -> Aqua
-# cssRenderProp -> Aqua
-# cssColorProp -> Aqua
-# cssGeneratedContentProp -> Aqua
-# cssVendor -> White
-# # }}}
+# CSS: {{{
+cssAttrComma -> White
+cssBraces -> White
+cssClassNameDot -> Blue
+cssClassName -> Blue
+cssFunctionName -> Yellow
+cssAttr -> Orange
+cssProp -> Aqua
+cssCommonAttr -> Yellow
+cssImportant -> Red
+cssSelectorOp -> Orange
+cssSelectorOp2 -> Orange
+cssColor -> White
+# }}}
 # # JavaScript: {{{
 # javaScriptFunction -> Aqua
 # javaScriptIdentifier -> Red
@@ -229,6 +192,25 @@ xmlCdataCdata -> Purple
 # jsxAttrib -> Yellow
 # jsxEqual -> Aqua
 # #}}}
+# # Python: {{{
+# pythonBuiltin -> Orange
+# pythonBuiltinObj -> Orange
+# pythonBuiltinFunc -> Orange
+# pythonFunction -> Aqua
+# pythonDecorator -> Red
+# pythonInclude -> Include
+# pythonImport -> PreProc
+# pythonRun -> Blue
+# pythonCoding -> Blue
+# pythonOperator -> Orange
+# pythonException -> Red
+# pythonExceptions -> Purple
+# pythonBoolean -> Purple
+# pythonConditional -> Red
+# pythonRepeat -> Red
+# pythonDottedName -> GreenBold
+# pythonDot -> Grey
+# # }}}
 # # PureScript: {{{
 # purescriptModuleKeyword -> Aqua
 # purescriptModuleName -> White
