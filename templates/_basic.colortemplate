@@ -90,11 +90,11 @@ Float                   green           none
 Define                  aqua            none
 Function                aqua            none
 Constant                aqua            none
-Macro                   blue            none
 Identifier              blue            none
 PreProc                 purple          none
 Include                 purple          none
 PreCondit               purple          none
+Macro                   purple          none
 
 Underlined              blue            none            underline
 SpecialKey              blue            none

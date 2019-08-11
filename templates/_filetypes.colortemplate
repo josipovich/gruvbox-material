@@ -59,12 +59,15 @@ xmlCdataCdata -> Purple
 # CSS: {{{
 cssAttrComma -> White
 cssBraces -> White
-cssClassNameDot -> Blue
-cssClassName -> Blue
+cssTagName -> Purple
+cssClassNameDot -> Red
+cssClassName -> Red
 cssFunctionName -> Yellow
 cssAttr -> Orange
 cssProp -> Aqua
 cssCommonAttr -> Yellow
+cssPseudoClassId -> Blue
+cssPseudoClassFn -> Green
 cssImportant -> Red
 cssSelectorOp -> Orange
 cssSelectorOp2 -> Orange
@@ -121,13 +124,13 @@ typescriptDOMDocMethod -> Yellow
 typescriptEnum -> Aqua
 typescriptArrowFuncArg -> Aqua
 typescriptBOMNavigatorProp -> Aqua
-typescriptCall -> Blue
 typescriptOptionalMark -> Orange
-typescriptTypeReference -> Aqua
 typescriptCase -> Orange
-typescriptObjectLabel -> Blue
 typescriptTypeParameter -> Yellow
 typescriptCastKeyword -> Orange
+typescriptTypeReference -> Purple
+typescriptObjectLabel -> Yellow
+typescriptCall -> Blue
 # }}}
 # Dart{{{
 dartTypedef -> Red
@@ -147,8 +150,7 @@ coffeeCurlies -> Aqua
 coffeeParens -> Blue
 coffeeBrackets -> Green
 coffeeOperator -> Red
-coffeeInterp -> Aqua
-coffeeInterpDelim -> Aqua
+coffeeInterp -> Purple
 coffeeStatement -> Orange
 coffeeSpecialIdent -> Purple
 # }}}

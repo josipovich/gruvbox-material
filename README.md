@@ -13,8 +13,8 @@ The syntax highlighting logic used in this branch is as follows:
 - **Yellow**`#e3a84e`: Type, Typedef, Special, SpecialChar
 - **Green**`#a9b665`: String, Boolean, Character, Number, Float
 - **Aqua**`#89b482`: Define, Function, Constant
-- **Blue**`#7daea3`: Identifier, Macro
-- **Purple**`#d3869b`: PreProc, Include, PreCondit
+- **Blue**`#7daea3`: Identifier
+- **Purple**`#d3869b`: Macro, PreProc, Include, PreCondit
 
 # Installation
 
