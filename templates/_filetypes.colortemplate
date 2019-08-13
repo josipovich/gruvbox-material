@@ -433,16 +433,17 @@ goDeclType -> Orange
 goBuiltins -> Aqua
 goPredefinedIdentifiers -> Blue
 # }}}
-# # Rust: {{{
-# rustSigil -> Orange
-# rustEscape -> Aqua
-# rustStringContinuation -> Aqua
-# rustEnum -> Aqua
-# rustStructure -> Aqua
-# rustDefault -> Aqua
-# rustModPathSep -> Grey
-# rustCommentLineDoc -> Comment
-# # }}}
+# Rust: {{{
+rustModPath -> Green
+rustModPathSep -> Grey
+rustDeriveTrait -> Red
+rustStructure -> Orange
+rustEnumVariant -> Green
+rustSelf -> Blue
+rustPubScopeCrate -> Purple
+rustSuper -> Purple
+rustMacroVariable -> Purple
+# }}}
 # # Ruby: {{{
 # rubyStringDelimiter -> Green
 # rubyInterpolationDelimiter -> Aqua
