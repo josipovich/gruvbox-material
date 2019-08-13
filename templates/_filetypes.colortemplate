@@ -470,6 +470,23 @@ phpClassExtends -> Aqua
 phpMethodsVar -> Green
 phpStaticClasses -> Purple
 #}}}
+# Csharp{{{
+csUnspecifiedStatement -> Purple
+csStorage -> Red
+csClass -> Red
+csClassType -> Aqua
+csType -> Orange
+csNewType -> Yellow
+csEndColon -> White
+csBraces -> White
+csParens -> White
+csOpSymbols -> Orange
+csLogicSymbols -> Aqua
+csInterpolationDelimiter -> Aqua
+csInterpolationFormat -> Blue
+csInterpolationAlignDel -> Aqua
+csInterpolationFormatDel -> Aqua
+#}}}
 # # Ruby: {{{
 # rubyStringDelimiter -> Green
 # rubyInterpolationDelimiter -> Aqua
@@ -612,17 +629,6 @@ phpStaticClasses -> Purple
 # mailSignature -> White
 # mailURL -> Orange
 # mailEmail -> Orange
-# # }}}
-# # C#: {{{
-# csBraces -> White
-# csEndColon -> White
-# csLogicSymbols -> Purple
-# csParens -> White
-# csOpSymbols -> Orange
-# csInterpolationDelimiter -> Aqua
-# csInterpolationFormat -> Aqua
-# csInterpolationAlignDel -> AquaBold
-# csInterpolationFormatDel -> AquaBold
 # # }}}
 # # Sh{{{
 # shRange -> White
