@@ -487,6 +487,12 @@ csInterpolationFormat -> Blue
 csInterpolationAlignDel -> Aqua
 csInterpolationFormatDel -> Aqua
 #}}}
+# Fsharp{{{
+fsharpAttrib -> Purple
+fsharpAttribute -> Purple
+fsharpException -> Red
+fsharpLabel -> Green
+#}}}
 # # Ruby: {{{
 # rubyStringDelimiter -> Green
 # rubyInterpolationDelimiter -> Aqua
