@@ -426,6 +426,13 @@ javaVarArg -> Green
 javaClassDecl -> Red
 javaMethodDecl -> Red
 # }}}
+# Kotlin{{{
+ktStructure -> Red
+ktAnnotation -> Aqua
+ktKeyword -> Blue
+ktComplexInterpolation -> Blue
+ktComplexInterpolationBrace -> Aqua
+#}}}
 # Go: {{{
 goPackage -> Purple
 goImport -> Purple
