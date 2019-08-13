@@ -451,6 +451,20 @@ rustPubScopeCrate -> Purple
 rustSuper -> Purple
 rustMacroVariable -> Purple
 # }}}
+# PHP{{{
+phpUseClass -> Green
+phpUseAlias -> Aqua
+phpParent -> White
+phpFunction -> Aqua
+phpMethod -> Green
+phpVarSelector -> Aqua
+phpUseNamespaceSeparator -> Aqua
+phpMemberSelector -> Orange
+phpClass -> Aqua
+phpClassExtends -> Aqua
+phpMethodsVar -> Green
+phpStaticClasses -> Purple
+#}}}
 # # Ruby: {{{
 # rubyStringDelimiter -> Green
 # rubyInterpolationDelimiter -> Aqua
