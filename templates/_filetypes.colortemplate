@@ -413,19 +413,19 @@ pythonRepeat -> Red
 pythonNone -> Yellow
 pythonDot -> Grey
 # }}}
-# # Java: {{{
-# javaAnnotation -> Blue
-# javaDocTags -> Aqua
-# javaParen -> White
-# javaParen1 -> White
-# javaParen2 -> White
-# javaParen3 -> White
-# javaParen4 -> White
-# javaParen5 -> White
-# javaOperator -> Orange
-# javaVarArg -> Green
-# javaCommentTitle -> vimCommentTitle
-# # }}}
+# Java: {{{
+javaAnnotation -> Aqua
+javaParen -> White
+javaParen1 -> White
+javaParen2 -> White
+javaParen3 -> White
+javaParen4 -> White
+javaParen5 -> White
+javaOperator -> Orange
+javaVarArg -> Green
+javaClassDecl -> Red
+javaMethodDecl -> Red
+# }}}
 # # Go: {{{
 # goDirective -> Aqua
 # goConstants -> Purple
