@@ -506,6 +506,19 @@ rubyMethodName -> Green
 rubyInterpolation -> Yellow
 rubyInterpolationDelimiter -> Aqua
 # }}}
+# Perl{{{
+perlStatementPackage -> Purple
+perlPackageDecl -> Aqua
+perlStatementInclude -> Purple
+perlStatementStorage -> Orange
+perlStatementList -> Orange
+perlMethod -> Green
+perlVarPlain2 -> Aqua
+perlVarSimpleMemberName -> Yellow
+podCommand -> Orange
+podCmdText -> Purple
+podVerbatimLine -> Green
+#}}}
 # # Lua: {{{
 # luaIn -> Red
 # luaFunction -> Aqua
@@ -597,17 +610,6 @@ rubyInterpolationDelimiter -> Aqua
 # haskellQuasiQuoted -> BlueBold
 # haskellTypeRoles -> RedBold
 # # }}}
-# # Perl{{{
-# perlStatementPackage -> PreProc
-# perlStatementInclude -> PreProc
-# perlStatementStorage -> StorageClass
-# perlStatementList -> StorageClass
-# perlVarSimpleMemberName -> Type
-# perlMethod -> Function
-# podCommand -> StorageClass
-# podCmdText -> Macro
-# podVerbatimLine -> String
-# #}}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
