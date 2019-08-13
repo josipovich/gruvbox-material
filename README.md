@@ -11,8 +11,8 @@ The syntax highlighting logic used in this branch is as follows:
 - **Red**`#ea6962`: Keyword, Statement, Conditional, Repeat, Exception
 - **Orange**`#e78a4e`: StorageClass, Operator, Structure, Label, Title, Tag
 - **Yellow**`#e3a84e`: Type, Typedef, Special, SpecialChar
-- **Green**`#a9b665`: String, Boolean, Character, Number, Float
-- **Aqua**`#89b482`: Define, Function, Constant
+- **Green**`#a9b665`: Method, String, Boolean, Character, Number, Float
+- **Aqua**`#89b482`: Function, Constant, Define
 - **Blue**`#7daea3`: Identifier
 - **Purple**`#d3869b`: Macro, PreProc, Include, PreCondit
 
