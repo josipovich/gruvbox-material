@@ -426,13 +426,13 @@ javaVarArg -> Green
 javaClassDecl -> Red
 javaMethodDecl -> Red
 # }}}
-# # Go: {{{
-# goDirective -> Aqua
-# goConstants -> Purple
-# goDeclaration -> Red
-# goDeclType -> Blue
-# goBuiltins -> Orange
-# # }}}
+# Go: {{{
+goPackage -> Purple
+goImport -> Purple
+goDeclType -> Orange
+goBuiltins -> Aqua
+goPredefinedIdentifiers -> Blue
+# }}}
 # # Rust: {{{
 # rustSigil -> Orange
 # rustEscape -> Aqua
