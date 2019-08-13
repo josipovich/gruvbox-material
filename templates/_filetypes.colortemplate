@@ -493,10 +493,19 @@ fsharpAttribute -> Purple
 fsharpException -> Red
 fsharpLabel -> Green
 #}}}
-# # Ruby: {{{
-# rubyStringDelimiter -> Green
-# rubyInterpolationDelimiter -> Aqua
-# # }}}
+# Ruby: {{{
+rubyModule -> Purple
+rubyModuleName -> Orange
+rubyClass -> Red
+rubyClassName -> Aqua
+rubyConstant -> Aqua
+rubySymbol -> Blue
+rubyDefine -> Orange
+rubyPseudoVariable -> Yellow
+rubyMethodName -> Green
+rubyInterpolation -> Yellow
+rubyInterpolationDelimiter -> Aqua
+# }}}
 # # Lua: {{{
 # luaIn -> Red
 # luaFunction -> Aqua
