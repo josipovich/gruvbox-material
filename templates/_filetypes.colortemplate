@@ -393,25 +393,26 @@ purescriptAsKeyword -> Orange
 purescriptHidingKeyword -> Orange
 purescriptWhere -> Orange
 # }}}
-# # Python: {{{
-# pythonBuiltin -> Orange
-# pythonBuiltinObj -> Orange
-# pythonBuiltinFunc -> Orange
-# pythonFunction -> Aqua
-# pythonDecorator -> Red
-# pythonInclude -> Include
-# pythonImport -> PreProc
-# pythonRun -> Blue
-# pythonCoding -> Blue
-# pythonOperator -> Orange
-# pythonException -> Red
-# pythonExceptions -> Purple
-# pythonBoolean -> Purple
-# pythonConditional -> Red
-# pythonRepeat -> Red
-# pythonDottedName -> GreenBold
-# pythonDot -> Grey
-# # }}}
+# Python: {{{
+pythonBuiltin -> Aqua
+pythonBuiltinType -> Yellow
+pythonBuiltinObj -> Purple
+pythonBuiltinFunc -> Aqua
+pythonExClass -> Purple
+pythonFunction -> Aqua
+pythonDecorator -> Orange
+pythonInclude -> Include
+pythonImport -> PreProc
+pythonRun -> Blue
+pythonCoding -> Blue
+pythonOperator -> Orange
+pythonException -> Red
+pythonExceptions -> Purple
+pythonConditional -> Red
+pythonRepeat -> Red
+pythonNone -> Yellow
+pythonDot -> Grey
+# }}}
 # # Java: {{{
 # javaAnnotation -> Blue
 # javaDocTags -> Aqua
