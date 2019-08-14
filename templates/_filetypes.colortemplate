@@ -527,11 +527,14 @@ haskellWhere -> Red
 haskellParens -> Green
 haskellDefault -> Red
 # }}}
-# # Lua: {{{
-# luaIn -> Red
-# luaFunction -> Aqua
-# luaTable -> Orange
-# # }}}
+# Lua: {{{
+luaLocal -> Orange
+luaNoise -> Grey
+luaFuncCall -> Green
+luaFuncKeyword -> Red
+luaConstant -> Aqua
+luaSpecialValue -> Blue
+# }}}
 # # MoonScript: {{{
 # moonSpecialOp -> White
 # moonExtendedOp -> Orange
