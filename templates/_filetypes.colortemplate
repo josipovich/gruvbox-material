@@ -535,12 +535,17 @@ luaFuncKeyword -> Red
 luaConstant -> Aqua
 luaSpecialValue -> Blue
 # }}}
-# # MoonScript: {{{
-# moonSpecialOp -> White
-# moonExtendedOp -> Orange
-# moonFunction -> White
-# moonObject -> Yellow
-# # }}}
+# MoonScript: {{{
+moonLuaFunc -> Aqua
+moonSpecialOp -> White
+moonExtendedOp -> Orange
+moonSpecialVar -> Purple
+moonFunction -> Aqua
+moonDotAccess -> Grey
+moonObject -> Yellow
+moonInterp -> Blue
+moonInterpDelim -> Aqua
+# }}}
 # # Elixir: {{{
 # elixirStringDelimiter -> Green
 # elixirInterpolationDelimiter -> Aqua
