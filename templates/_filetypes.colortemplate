@@ -519,6 +519,14 @@ podCommand -> Orange
 podCmdText -> Purple
 podVerbatimLine -> Green
 #}}}
+# Haskell: {{{
+haskellDeclKeyword -> Red
+haskellType -> Aqua
+haskellPreProc -> Purple
+haskellWhere -> Red
+haskellParens -> Green
+haskellDefault -> Red
+# }}}
 # # Lua: {{{
 # luaIn -> Red
 # luaFunction -> Aqua
@@ -573,42 +581,6 @@ podVerbatimLine -> Green
 # scalaTypeTypePostDeclaration -> Yellow
 # scalaInstanceDeclaration -> White
 # scalaInterpolation -> Aqua
-# # }}}
-# # Haskell: {{{
-# haskellType -> Blue
-# haskellIdentifier -> Aqua
-# haskellSeparator -> LightGrey
-# haskellDelimiter -> White
-# haskellOperators -> Green
-# haskellBacktick -> Orange
-# haskellStatement -> Purple
-# haskellConditional -> Purple
-# haskellLet -> Red
-# haskellDefault -> Red
-# haskellWhere -> Red
-# haskellDeclKeyword -> Orange
-# haskellDecl -> Orange
-# haskellDeriving -> Purple
-# haskellAssocType -> Aqua
-# haskellNumber -> Aqua
-# haskellForeignKeywords -> Green
-# haskellKeyword -> Red
-# haskellFloat -> Aqua
-# haskellInfix -> Purple
-# haskellRecursiveDo -> Purlpe
-# haskellQuotedType -> Red
-# haskellPreProc -> LightGrey
-# haskellTypeForall -> Red
-# haskellPatternKeyword -> Blue
-# haskellBottom -> RedBold
-# haskellTH -> AquaBold
-# haskellImportKeywords -> PurpleBold
-# haskellPragma -> RedBold
-# haskellQuote -> GreenBold
-# haskellShebang -> YellowBold
-# haskellLiquid -> PurpleBold
-# haskellQuasiQuoted -> BlueBold
-# haskellTypeRoles -> RedBold
 # # }}}
 # # Json: {{{
 # jsonKeyword -> Green
