@@ -649,6 +649,19 @@ shCommandSub -> Orange
 shFunctionOne -> Aqua
 shFunctionKey -> Red
 #}}}
+# Zsh{{{
+zshOptStart -> Purple
+zshOption -> Blue
+zshSubst -> Yellow
+zshFunction -> Aqua
+zshDeref -> Purple
+zshTypes -> Red
+zshVariableDef -> Blue
+#}}}
+# Fish{{{
+fishStatement -> Orange
+fishLabel -> Red
+#}}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
