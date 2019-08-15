@@ -662,6 +662,17 @@ zshVariableDef -> Blue
 fishStatement -> Orange
 fishLabel -> Red
 #}}}
+# Vim{{{
+vimLet -> Orange
+vimFunction -> Aqua
+vimIsCommand -> Aqua
+vimUserFunc -> Green
+vimFuncName -> Green
+vimMap -> Purple
+vimNotation -> Aqua
+vimSetEqual -> Yellow
+vimSetSep -> White
+#}}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
