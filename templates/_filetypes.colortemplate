@@ -608,30 +608,19 @@ ocamlPpxIdentifier -> Blue
 ocamlSigEncl -> Orange
 ocamlStructEncl -> Aqua
 #}}}
-# # Clojure: {{{
-# clojureKeyword -> Blue
-# clojureCond -> Orange
-# clojureSpecial -> Orange
-# clojureDefine -> Orange
-# clojureFunc -> Yellow
-# clojureRepeat -> Yellow
-# clojureCharacter -> Aqua
-# clojureStringEscape -> Aqua
-# clojureException -> Red
-# clojureRegexp -> Aqua
-# clojureRegexpEscape -> Aqua
-# clojureAnonArg -> Yellow
-# clojureVariable -> Blue
-# clojureMacro -> Orange
-# clojureMeta -> Yellow
-# clojureDeref -> Yellow
-# clojureQuote -> Yellow
-# clojureUnquote -> Yellow
-# clojureRegexpMod -> clojureRegexpCharClass
-# clojureRegexpQuantifier -> clojureRegexpCharClass
-# clojureRegexpCharClass -> GreyBold
-# clojureParen -> White
-# # }}}
+# Clojure: {{{
+clojureKeyword -> Orange
+clojureDefine -> Red
+clojureSpecial -> Red
+clojureQuote -> Aqua
+clojureUnquote -> Aqua
+clojureException -> Red
+clojureRegexp -> Aqua
+clojureRegexpEscape -> Aqua
+clojureVariable -> Blue
+clojureMeta -> Yellow
+clojureDeref -> Yellow
+# }}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
