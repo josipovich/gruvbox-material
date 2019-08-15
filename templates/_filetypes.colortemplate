@@ -555,6 +555,15 @@ dAnnotation -> Blue
 dAttribute -> Blue
 paramlist -> Green
 #}}}
+# Scala: {{{
+scalaNameDefinition -> Blue
+scalaCapitalWord -> Green
+scalaKeywordModifier -> Orange
+scalaSpecial -> Purple
+scalaInstanceDeclaration -> Aqua
+scalaInterpolationB -> Blue
+scalaParameterAnnotation -> Purple
+# }}}
 # # Elixir: {{{
 # elixirStringDelimiter -> Green
 # elixirInterpolationDelimiter -> Aqua
@@ -584,20 +593,6 @@ paramlist -> Green
 # clojureRegexpQuantifier -> clojureRegexpCharClass
 # clojureRegexpCharClass -> GreyBold
 # clojureParen -> White
-# # }}}
-# # Scala: {{{
-# scalaNameDefinition -> White
-# scalaCaseFollowing -> White
-# scalaCapitalWord -> White
-# scalaTypeExtension -> White
-# scalaKeyword -> Red
-# scalaKeywordModifier -> Red
-# scalaSpecial -> Aqua
-# scalaOperator -> Orange
-# scalaTypeDeclaration -> Yellow
-# scalaTypeTypePostDeclaration -> Yellow
-# scalaInstanceDeclaration -> White
-# scalaInterpolation -> Aqua
 # # }}}
 # # Json: {{{
 # jsonKeyword -> Green
