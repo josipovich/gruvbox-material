@@ -592,6 +592,22 @@ elixirCallbackDefine -> Red
 elixirStructDefine -> Red
 elixirExUnitMacro -> Red
 # }}}
+# Ocaml{{{
+ocamlModPath -> Green
+ocamlFullMod -> Green
+ocamlFuncWith -> White
+ocamlWith -> White
+ocamlModParam -> White
+ocamlModParam1 -> White
+ocamlKeyChar -> Grey
+ocamlAnyVar -> Blue
+ocamlEqual -> Orange
+ocamlArrow -> Aqua
+ocamlPpxEncl -> Orange
+ocamlPpxIdentifier -> Blue
+ocamlSigEncl -> Orange
+ocamlStructEncl -> Aqua
+#}}}
 # # Clojure: {{{
 # clojureKeyword -> Blue
 # clojureCond -> Orange
