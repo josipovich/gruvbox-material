@@ -31,10 +31,7 @@ htmlUnderline none none underline
 htmlUnderlineItalic none none underline,italic
 htmlItalic none none italic
 # # }}}
-# # Vim: {{{
-# vimCommentTitle lightgrey none bold,italic
-# # }}}
-# # Help{{{
-# helpURL aqua none underline
-# helpNote purple none bold
-# #}}}
+# Help{{{
+helpURL aqua none underline
+helpNote purple none bold
+#}}}

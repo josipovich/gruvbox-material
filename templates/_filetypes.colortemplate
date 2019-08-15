@@ -673,79 +673,36 @@ vimNotation -> Aqua
 vimSetEqual -> Yellow
 vimSetSep -> White
 #}}}
-# # Json: {{{
-# jsonKeyword -> Green
-# jsonQuote -> Green
-# jsonBraces -> White
-# jsonString -> White
-# # }}}
-# # Yaml{{{
-# yamlKey -> Aqua
-# yamlConstant -> Purlpe
-# #}}}
-# # Toml{{{
-# tomlTable -> Orange
-# tomlTableArray -> Orange
-# tomlKey -> White
-# #}}}
-# # Mail: {{{
-# mailHeader -> Blue
-# mailHeaderKey -> Blue
-# mailHeaderEmail -> Blue
-# mailSubject -> Blue
-# mailQuoted1 -> Aqua
-# mailQuoted2 -> Purple
-# mailQuoted3 -> Yellow
-# mailQuoted4 -> Green
-# mailQuoted5 -> Red
-# mailQuoted6 -> Orange
-# mailQuotedExp1 -> Aqua
-# mailQuotedExp2 -> Purple
-# mailQuotedExp3 -> Yellow
-# mailQuotedExp4 -> Green
-# mailQuotedExp5 -> Red
-# mailQuotedExp6 -> Orange
-# # mailVerbatim -> Red
-# mailSignature -> White
-# mailURL -> Orange
-# mailEmail -> Orange
-# # }}}
-# # Zsh{{{
-# zshVariableDef -> Blue
-# zshSubst -> Orange
-# zshOptStart -> Orange
-# zshOption -> Aqua
-# zshFunction -> Green
-# #}}}
-# # Vim: {{{
-# vimNotation -> Orange
-# vimBracket -> Orange
-# vimMapModKey -> Purple
-# vimMapMod -> Purple
-# vimFuncSID -> LightGrey
-# vimSetSep -> LightGrey
-# vimSep -> LightGrey
-# vimContinue -> LightGrey
-# vimLet -> Orange
-# vimAutoCmd -> Orange
-# # }}}
-# # Diff{{{
-# diffAdded -> Green
-# diffRemoved -> Red
-# diffChanged -> Yellow
-# diffOldFile -> Purple
-# diffNewFile -> Blue
-# diffFile -> Orange
-# diffLine -> Grey
-# diffIndexLine -> Aqua
-# #}}}
-# # Help{{{
-# helpHyperTextEntry -> Red
-# helpHyperTextJump -> Blue
-# helpSectionDelim -> Grey
-# helpExample -> Green
-# helpCommand -> Orange
-# helpHeadline -> Title
-# helpHeader -> Aqua
-# helpSpecial -> Yellow
-# #}}}
+# Json: {{{
+jsonKeyword -> Orange
+jsonQuote -> Grey
+jsonBraces -> White
+# }}}
+# Yaml{{{
+yamlKey -> Aqua
+yamlConstant -> Purple
+#}}}
+# Toml{{{
+tomlTable -> Purple
+tomlTableArray -> Purple
+#}}}
+# Diff{{{
+diffAdded -> Green
+diffRemoved -> Red
+diffChanged -> Yellow
+diffOldFile -> Purple
+diffNewFile -> Blue
+diffFile -> Orange
+diffLine -> Grey
+diffIndexLine -> Aqua
+#}}}
+# Help{{{
+helpHyperTextEntry -> Red
+helpHyperTextJump -> Blue
+helpSectionDelim -> Grey
+helpExample -> Green
+helpCommand -> Orange
+helpHeadline -> Title
+helpHeader -> Aqua
+helpSpecial -> Yellow
+#}}}
