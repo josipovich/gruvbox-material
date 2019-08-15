@@ -621,6 +621,14 @@ clojureVariable -> Blue
 clojureMeta -> Yellow
 clojureDeref -> Yellow
 # }}}
+# Erlang{{{
+erlangLocalFuncCall -> Aqua
+erlangType -> Orange
+erlangGlobalFuncCall -> Green
+erlangLocalFuncRef -> Yellow
+erlangOperator -> White
+erlangRecord -> Purple
+#}}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
