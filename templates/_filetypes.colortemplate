@@ -546,6 +546,15 @@ moonObject -> Yellow
 moonInterp -> Blue
 moonInterpDelim -> Aqua
 # }}}
+# D{{{
+dImport -> Aqua
+dStructure -> Red
+dEnum -> Red
+dScopeDecl -> Red
+dAnnotation -> Blue
+dAttribute -> Blue
+paramlist -> Green
+#}}}
 # # Elixir: {{{
 # elixirStringDelimiter -> Green
 # elixirInterpolationDelimiter -> Aqua
