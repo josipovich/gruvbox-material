@@ -35,6 +35,10 @@ texBeginEnd -> Red
 texBeginEndName -> Blue
 texDocType -> Orange
 #}}}
+# C/C++{{{
+cConstant -> Blue
+cppSTLnamespace -> Purple
+#}}}
 # Html: {{{
 htmlTag -> Orange
 htmlEndTag -> Yellow
