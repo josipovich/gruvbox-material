@@ -629,6 +629,10 @@ erlangLocalFuncRef -> Yellow
 erlangOperator -> White
 erlangRecord -> Purple
 #}}}
+# Lisp{{{
+lispKey -> Aqua
+lispEscapeSpecial -> Orange
+#}}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
