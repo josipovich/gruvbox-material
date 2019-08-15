@@ -633,6 +633,22 @@ erlangRecord -> Purple
 lispKey -> Aqua
 lispEscapeSpecial -> Orange
 #}}}
+# Sh{{{
+shRange -> White
+shTestOpr -> Aqua
+shOption -> Aqua
+bashStatement -> Orange
+shOperator -> Orange
+shQuote -> Green
+shSet -> Orange
+shSetList -> Blue
+shSnglCase -> Orange
+shVariable -> Blue
+shCmdSubRegion -> Green
+shCommandSub -> Orange
+shFunctionOne -> Aqua
+shFunctionKey -> Red
+#}}}
 # # Json: {{{
 # jsonKeyword -> Green
 # jsonQuote -> Green
@@ -670,19 +686,6 @@ lispEscapeSpecial -> Orange
 # mailURL -> Orange
 # mailEmail -> Orange
 # # }}}
-# # Sh{{{
-# shRange -> White
-# shTestOpr -> Purple
-# shOption -> Purple
-# bashStatement -> Orange
-# shOperator -> Orange
-# shQuote -> Green
-# shSet -> Orange
-# shSetList -> Blue
-# shSnglCase -> Orange
-# shVariable -> Blue
-# shCmdSubRegion -> Green
-# #}}}
 # # Zsh{{{
 # zshVariableDef -> Blue
 # zshSubst -> Orange
