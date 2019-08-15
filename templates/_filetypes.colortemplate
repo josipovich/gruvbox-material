@@ -564,12 +564,34 @@ scalaInstanceDeclaration -> Aqua
 scalaInterpolationB -> Blue
 scalaParameterAnnotation -> Purple
 # }}}
-# # Elixir: {{{
-# elixirStringDelimiter -> Green
-# elixirInterpolationDelimiter -> Aqua
-# elixirModuleDeclaration -> Yellow
-# elixirDocString -> Comment
-# # }}}
+# Elixir: {{{
+elixirModuleDefine -> Purple
+elixirModuleDeclaration -> Yellow
+elixirAlias -> Aqua
+elixirVariable -> Purple
+elixirPseudoVariable -> Yellow
+elixirMacroDeclaration -> Purple
+elixirAtom -> Blue
+elixirKeyword -> Orange
+elixirBlockDefinition -> Red
+elixirDefine -> Red
+elixirPrivateDefine -> Red
+elixirGuard -> Red
+elixirPrivateGuard -> Red
+elixirModuleDefine -> Red
+elixirProtocolDefine -> Red
+elixirImplDefine -> Red
+elixirRecordDefine -> Red
+elixirPrivateRecordDefine -> Red
+elixirMacroDefine -> Red
+elixirPrivateMacroDefine -> Red
+elixirDelegateDefine -> Red
+elixirOverridableDefine -> Red
+elixirExceptionDefine -> Red
+elixirCallbackDefine -> Red
+elixirStructDefine -> Red
+elixirExUnitMacro -> Red
+# }}}
 # # Clojure: {{{
 # clojureKeyword -> Blue
 # clojureCond -> Orange
