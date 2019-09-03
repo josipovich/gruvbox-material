@@ -1,6 +1,8 @@
 # vim: ft=colortemplate fdm=marker
 
-Color: dark0            #282828         235             Black
+Color: dark0_hard       #1d2021         235             Black
+Color: dark0_medium     #282828         235             Black
+Color: dark0_soft       #32302f         235             Black
 Color: dark1            #3c3836         237             DarkGrey
 Color: dark2            #504945         239             DarkGrey
 Color: dark3            #665c54         241             DarkGrey
