@@ -47,9 +47,6 @@ CursorLine              none            dark1
 CursorLineNr            yellow          dark1
 LineNr                  dark4           none
 SignColumn              none            dark1
-DiffAdd                 none            darkgreen
-DiffChange              none            darkblue
-DiffDelete              none            darkred
 Directory               green           none
 ErrorMsg                red             none            bold
 WarningMsg              yellow          none            bold
@@ -122,4 +119,20 @@ Comment                 grey            none            italic
 SpecialComment          grey            none            italic
 Delimiter               light           none
 Ignore                  light           none
-Error                   none            darkred
+
+#if get(g:, 'gruvbox_material_background', 'medium') ==# 'hard'
+    DiffAdd                 none            darkgreen_hard
+    DiffChange              none            darkblue_hard
+    DiffDelete              none            darkred_hard
+    Error                   none            darkred_hard
+#elseif get(g:, 'gruvbox_material_background', 'medium') ==# 'soft'
+    DiffAdd                 none            darkgreen_soft
+    DiffChange              none            darkblue_soft
+    DiffDelete              none            darkred_soft
+    Error                   none            darkred_soft
+#elseif get(g:, 'gruvbox_material_background', 'medium') ==# 'medium'
+    DiffAdd                 none            darkgreen_medium
+    DiffChange              none            darkblue_medium
+    DiffDelete              none            darkred_medium
+    Error                   none            darkred_medium
+#endif
