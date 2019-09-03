@@ -115,10 +115,16 @@ Macro                   purple          none
 
 Underlined              blue            none            underline
 SpecialKey              blue            none
-Comment                 grey            none            italic
-SpecialComment          grey            none            italic
 Delimiter               light           none
 Ignore                  light           none
+
+#if get(g:, 'gruvbox_material_disable_italic_comment', 0)
+    Comment                 grey            none
+    SpecialComment          grey            none
+#else
+    Comment                 grey            none            italic
+    SpecialComment          grey            none            italic
+#endif
 
 #if get(g:, 'gruvbox_material_background', 'medium') ==# 'hard'
     DiffAdd                 none            darkgreen_hard
