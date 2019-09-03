@@ -50,7 +50,7 @@ SignColumn              none            dark1
 Directory               green           none
 ErrorMsg                red             none            bold
 WarningMsg              yellow          none            bold
-ModeMsg                 dark0_medium    lightgrey       bold
+ModeMsg                 light           none            bold
 MoreMsg                 yellow          none            bold
 FoldColumn              grey            dark1
 Folded                  grey            dark1
