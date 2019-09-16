@@ -2,11 +2,11 @@
 𝐃𝐚𝐫𝐤
 </h1>
 
-|        |                                                     𝑶𝒓𝒊𝒈𝒊𝒏𝒂𝒍 𝑮𝒓𝒖𝒗𝒃𝒐𝒙                                                     |                                                     𝑮𝒓𝒖𝒗𝒃𝒐𝒙 𝑴𝒂𝒕𝒆𝒓𝒊𝒂𝒍                                                     |
+|        |                                                     𝐎𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐆𝐫𝐮𝐯𝐛𝐨𝐱                                                     |                                                     𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥                                                     |
 | :----: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-|  𝒉𝒂𝒓𝒅  |  ![original-hard](https://user-images.githubusercontent.com/37491630/61801994-4072df00-ae1f-11e9-8a3a-cc806393f460.png)  |  ![material-hard](https://user-images.githubusercontent.com/37491630/63072979-02487700-bf16-11e9-88ca-e288c094697b.png)  |
-| 𝒎𝒆𝒅𝒊𝒖𝒎 | ![original-medium](https://user-images.githubusercontent.com/37491630/61802005-45379300-ae1f-11e9-91bb-012e058eb906.png) | ![material-medium](https://user-images.githubusercontent.com/37491630/63072977-ffe61d00-bf15-11e9-9fcb-1720b4e6b8b2.png) |
-|  𝒔𝒐𝒇𝒕  |  ![original-soft](https://user-images.githubusercontent.com/37491630/61801978-3bae2b00-ae1f-11e9-9b7b-33105484be47.png)  |  ![material-soft](https://user-images.githubusercontent.com/37491630/63072974-feb4f000-bf15-11e9-8b9b-34c5bac2711e.png)  |
+|  𝒉𝒂𝒓𝒅  |  ![original-hard](https://user-images.githubusercontent.com/37491630/64962022-32bd6100-d886-11e9-9504-f924c07022ae.png)  |  ![material-hard](https://user-images.githubusercontent.com/37491630/64961995-289b6280-d886-11e9-9b8b-c5ea74d8da5f.png)  |
+| 𝒎𝒆𝒅𝒊𝒖𝒎 | ![original-medium](https://user-images.githubusercontent.com/37491630/64962019-318c3400-d886-11e9-99cf-4ea0145c0ae3.png) | ![material-medium](https://user-images.githubusercontent.com/37491630/64962001-2a652600-d886-11e9-921a-5a3760173d36.png) |
+|  𝒔𝒐𝒇𝒕  |  ![original-soft](https://user-images.githubusercontent.com/37491630/64962028-34872480-d886-11e9-828c-073cc40e8701.png)  |  ![material-soft](https://user-images.githubusercontent.com/37491630/64962007-2c2ee980-d886-11e9-8a11-aacff84d33f7.png)  |
 
 <h1 align="center">
 𝐋𝐢𝐠𝐡𝐭
@@ -14,9 +14,9 @@
 
 |        |                                                     𝐎𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐆𝐫𝐮𝐯𝐛𝐨𝐱                                                     |                                                     𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥                                                     |
 | :----: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-|  𝒉𝒂𝒓𝒅  |  ![original-hard](https://user-images.githubusercontent.com/37491630/64184396-ecfea280-ce5a-11e9-8f78-c3d33e86633b.png)  |  ![material-hard](https://user-images.githubusercontent.com/37491630/64214696-01fe2480-cea1-11e9-83c2-2b0079d20fd1.png)  |
-| 𝒎𝒆𝒅𝒊𝒖𝒎 | ![original-medium](https://user-images.githubusercontent.com/37491630/64184401-eec86600-ce5a-11e9-849d-1f2471259eb1.png) | ![material-medium](https://user-images.githubusercontent.com/37491630/64214700-0591ab80-cea1-11e9-9a36-fec902c8ef19.png) |
-|  𝒔𝒐𝒇𝒕  |  ![original-soft](https://user-images.githubusercontent.com/37491630/64184412-f25bed00-ce5a-11e9-9e75-16cb75579ea6.png)  |  ![material-soft](https://user-images.githubusercontent.com/37491630/64214703-09bdc900-cea1-11e9-8355-f1953eeefe5c.png)  |
+|  𝒉𝒂𝒓𝒅  |  ![original-hard](https://user-images.githubusercontent.com/37491630/64962226-934c9e00-d886-11e9-91fc-c67b08cb6da4.png)  |  ![material-hard](https://user-images.githubusercontent.com/37491630/64962200-8c259000-d886-11e9-9ecb-540f1ccb0b4b.png)  |
+| 𝒎𝒆𝒅𝒊𝒖𝒎 | ![original-medium](https://user-images.githubusercontent.com/37491630/64962235-95aef800-d886-11e9-96a5-1cdf59857e55.png) | ![material-medium](https://user-images.githubusercontent.com/37491630/64962206-8e87ea00-d886-11e9-9734-33cdc496dca6.png) |
+|  𝒔𝒐𝒇𝒕  |  ![original-soft](https://user-images.githubusercontent.com/37491630/64962251-98a9e880-d886-11e9-82e8-be7e1bc8e15c.png)  |  ![material-soft](https://user-images.githubusercontent.com/37491630/64962218-9182da80-d886-11e9-9b22-f4a4a39f80f0.png)  |
 
 The syntax highlighting logic used in this branch is as follows:
 
