@@ -59,6 +59,7 @@ Put this in your vimrc:
 
 ```vim
 set termguicolors
+" tip: `set notermguicolors` will make this color scheme fall back to the original gruvbox
 
 " for dark version
 set background=dark
