@@ -125,7 +125,6 @@ ALEVirtualTextStyleError            -> ALEVirtualTextError
 ALEVirtualTextStyleWarning          -> ALEVirtualTextWarning
 # }}}
 # CoC{{{
-CocCodeLens          -> Grey
 CocErrorSign         -> ALEErrorSign
 CocWarningSign       -> ALEWarningSign
 CocInfoSign          -> ALEInfoSign
