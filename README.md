@@ -58,10 +58,6 @@ There is a package available for Arch Linux users in AUR: [gruvbox-material-neos
 Put something like this in your vimrc:
 
 ```vim
-" customization options should be put before `colorscheme gruvbox-material`
-let g:gruvbox_material_background = 'medium'
-let g:gruvbox_material_disable_italic_comment = 0
-
 " if you don't set this option, this color scheme will fall back to the original gruvbox
 set termguicolors
 
