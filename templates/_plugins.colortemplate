@@ -31,6 +31,11 @@ SneakLabel -> Search
 gitcommitSelectedFile -> Green
 gitcommitDiscardedFile -> Red
 # }}}
+# Signify {{{
+SignifySignAdd -> GitGutterAdd
+SignifySignChange -> GitGutterChange
+SignifySignDelete -> GitGutterDelete
+# }}}
 # FZF {{{
 verbatim
 let g:fzf_colors = {
@@ -117,6 +122,12 @@ TagbarNestedKind -> Aqua
 TagbarVisibilityPrivate -> Red
 TagbarVisibilityPublic -> Blue
 #}}}
+# Syntastic {{{
+SyntasticError -> ALEError
+SyntasticWarning -> ALEWarning
+SyntasticErrorSign -> ALEErrorSign
+SyntasticWarningSign -> ALEWarningSign
+# }}}
 # ALE {{{
 ALEVirtualTextError -> Grey
 ALEVirtualTextWarning -> Grey
