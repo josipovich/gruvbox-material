@@ -1,21 +1,22 @@
 *gruvbox-material.txt*    Gruvbox with Material Palette
 
-CONTENTS                                        *gruvbox-material-contents*
+CONTENTS                                     *gruvbox-material-contents*
 
-Introduction                                    |gruvbox-material-introduction|
-Installation                                    |gruvbox-material-installation|
-Usage                                           |gruvbox-material-usage|
-Configuration                                   |gruvbox-material-configuration|
-FAQ                                             |gruvbox-material-faq|
+Introduction                                 |gruvbox-material-introduction|
+Installation                                 |gruvbox-material-installation|
+Usage                                        |gruvbox-material-usage|
+Configuration                                |gruvbox-material-configuration|
+FAQ                                          |gruvbox-material-faq|
 
 ==============================================================================
-INTRODUCTION                                     *gruvbox-material-introduction*
+INTRODUCTION                                    *gruvbox-material-introduction*
 
-In my opinion, the very first thing a color scheme should do is to be eye-friendly,
-anything else is secondary. This requires soft contrast and low blue light.
+In my opinion, the very first thing a color scheme should do is to be
+eye-friendly, anything else is secondary. This requires soft contrast and low
+blue light.
 
-Gruvbox Material is based on Gruvbox, but with a very different color palette, I'm
-trying to adjust the foreground colors to match these requirements.
+Gruvbox Material is based on Gruvbox, but with a very different color palette,
+I'm trying to adjust the foreground colors to match these requirements.
 
 The syntax highlighting logic used in this branch is as follows:
 
@@ -28,7 +29,7 @@ The syntax highlighting logic used in this branch is as follows:
 - Purple `#d3869b`: Macro, PreProc, Include, PreCondit
 
 ==============================================================================
-INSTALLATION                                     *gruvbox-material-installation*
+INSTALLATION                                    *gruvbox-material-installation*
 
 ------------------------------------------------------------------------------
 Via Plugin Manager~
@@ -48,8 +49,8 @@ Manually~
     2. Copy `/path/to/gruvbox-material/colors/*` to `~/.vim/colors/`
     
     3. To install [airline](https://github.com/vim-airline/vim-airline) theme,
-    copy `/path/to/gruvbox-material/autoload/airline/themes/gruvbox_material.vim` to 
-    `~/.vim/autoload/airline/themes/gruvbox_material.vim`
+    copy `/path/to/gruvbox-material/autoload/airline/themes/gruvbox_material.vim`
+    to `~/.vim/autoload/airline/themes/gruvbox_material.vim`
     
     4. To install [lightline](https://github.com/itchyny/lightline.vim) theme,
     copy `/path/to/gruvbox-material/autoload/lightline/colorscheme/gruvbox_material.vim` 
@@ -62,7 +63,7 @@ AUR~
     https://aur.archlinux.org/packages/gruvbox-material-neosyn-git
 
 ==============================================================================
-USAGE                                                   *gruvbox-material-usage*
+USAGE                                                  *gruvbox-material-usage*
 
 ------------------------------------------------------------------------------
 Vim~
@@ -80,16 +81,16 @@ Vim~
     
 	colorscheme gruvbox-material
 <
-    If you want to apply this color scheme temporarily, run this command in vim
-    (this may cause broken colors):
+    If you want to apply this color scheme temporarily, run this command in
+    vim(this may cause broken colors):
 >
 	:colorscheme gruvbox-material
 <
 ------------------------------------------------------------------------------
 Airline~
 
-    To enable [airline](https://github.com/vim-airline/vim-airline) color scheme,
-    put this in your vimrc:
+    To enable [airline](https://github.com/vim-airline/vim-airline) color
+    scheme, put this in your vimrc:
 >
 	let g:airline_theme = 'gruvbox_material'
 <
@@ -100,8 +101,8 @@ Airline~
 ------------------------------------------------------------------------------
 Lightline~
 
-    To enable [lightline](https://github.com/itchyny/lightline.vim) color scheme,
-    put this in your vimrc:
+    To enable [lightline](https://github.com/itchyny/lightline.vim) color
+    scheme, put this in your vimrc:
 >
 	let g:lightline = {}
 	let g:lightline.colorscheme = 'gruvbox_material'
@@ -116,7 +117,7 @@ Lightline~
 	:call lightline#colorscheme()
 <
 ==============================================================================
-CONFIGURATION                                   *gruvbox-material-configuration*
+CONFIGURATION                                  *gruvbox-material-configuration*
 
 Note: the configuration options should be placed before `colorscheme gruvbox-material`
 
@@ -132,7 +133,7 @@ E.g.~
     let g:lightline.colorscheme = 'gruvbox_material'
 <
 ------------------------------------------------------------------------------
-                                                 *g:gruvbox_material_background*
+                                                *g:gruvbox_material_background*
 
 The background contrast used in this color scheme.
 
@@ -144,27 +145,27 @@ E.g.~
     let g:gruvbox_material_background = 'hard'
 <
 ------------------------------------------------------------------------------
-                                     *g:gruvbox_material_disable_italic_comment*
+                                    *g:gruvbox_material_disable_italic_comment*
 
-By default, italic is enabled in `Comment`. To disable italic in `Comment`, set this
-option to `1`.
+By default, italic is enabled in `Comment`. To disable italic in `Comment`, set
+this option to `1`.
 
 E.g.~
 >
     let g:gruvbox_material_disable_italic_comment = 1
 <
 ------------------------------------------------------------------------------
-                                     *g:gruvbox_material_lightline_disable_bold*
+                                    *g:gruvbox_material_lightline_disable_bold*
 
-By default, bold is enabled in lightline color scheme. To disable bold in lightline
-color scheme, set this option to `1`.
+By default, bold is enabled in lightline color scheme. To disable bold in
+lightline color scheme, set this option to `1`.
 
 E.g.~
 >
     let g:gruvbox_material_lightline_disable_bold = 1
 <
 ------------------------------------------------------------------------------
-                                     *g:gruvbox_material_transparent_background*
+                                    *g:gruvbox_material_transparent_background*
 
 To use transparent background, set this option to `1`.
 
@@ -173,7 +174,7 @@ E.g.~
     let g:gruvbox_material_transparent_background = 1
 <
 ------------------------------------------------------------------------------
-                                                      *gruvbox-material-leaderf*
+                                                     *gruvbox-material-leaderf*
 
 To enable gruvbox-material color scheme for [leaderf](https://github.com/Yggdroot/LeaderF)
 status line, add this to your vimrc:
@@ -183,7 +184,7 @@ status line, add this to your vimrc:
 Note: this configuration option doesn't need to be placed before `colorscheme gruvbox-material`
 
 ==============================================================================
-FAQ                                                       *gruvbox-material-faq*
+FAQ                                                      *gruvbox-material-faq*
 
 ------------------------------------------------------------------------------
 Q:~
@@ -197,14 +198,15 @@ A:~
     2. Maybe your terminal emulator doesn't support true colors, you can test
     it using [this script](https://unix.stackexchange.com/questions/404414/print-true-color-24-bit-test-pattern).
 
-    3. If you are running vim in tmux, you need to override default true colors
-    of tmux, as tmux cannot display true color properly:
+    3. If you are running vim in tmux, you need to override default true
+    colors of tmux, as tmux cannot display true color properly:
     [#1246 How to use true colors in vim under tmux?](https://github.com/tmux/tmux/issues/1246)
 
-    4. There are many highlight group links in syntax files while a color scheme
-    may change them, enabling one color scheme based on another color scheme
-    enabled is very likely to cause colors to break. If any color is broken, you
-    can enable the color scheme in your vimrc instead of after vim startup.
+    4. There are many highlight group links in syntax files while a color
+    scheme may change them, enabling one color scheme based on another color
+    scheme enabled is very likely to cause colors to break. If any color is
+    broken, you can enable the color scheme in your vimrc instead of after
+    vim startup.
 
 ------------------------------------------------------------------------------
 Q:~
@@ -221,4 +223,4 @@ A:~
     [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode).
 
 ==============================================================================
- vim:tw=78:ts=8:noet:ft=help:norl:
+vim:tw=78:nosta:noet:ts=8:sts=0:ft=help:noet:fen:fdm=marker:
