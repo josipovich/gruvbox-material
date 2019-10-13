@@ -30,6 +30,7 @@ The syntax highlighting logic used in this branch is as follows:
 ==============================================================================
 INSTALLATION                                     *gruvbox-material-installation*
 
+------------------------------------------------------------------------------
 Via Plugin Manager~
 
     Take [vim-plug](https://github.com/junegunn/vim-plug) for example:
@@ -39,6 +40,7 @@ Via Plugin Manager~
     For better syntax highlighting support, please install
     [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot).
 
+------------------------------------------------------------------------------
 Manually~
 
     1. Clone this repository and checkout this branch `git checkout neosyn`.
@@ -53,6 +55,7 @@ Manually~
     copy `/path/to/gruvbox-material/autoload/lightline/colorscheme/gruvbox_material.vim` 
     to `~/.vim/autoload/lightline/colorscheme/gruvbox_material.vim`
 
+------------------------------------------------------------------------------
 AUR~
 
     There is a package available for Arch Linux users in AUR:
@@ -61,6 +64,7 @@ AUR~
 ==============================================================================
 USAGE                                                   *gruvbox-material-usage*
 
+------------------------------------------------------------------------------
 Vim~
 
     Put something like this in your vimrc:
@@ -81,6 +85,7 @@ Vim~
 >
 	:colorscheme gruvbox-material
 <
+------------------------------------------------------------------------------
 Airline~
 
     To enable [airline](https://github.com/vim-airline/vim-airline) color scheme,
@@ -92,6 +97,7 @@ Airline~
 >
 	:AirlineTheme gruvbox_material
 <
+------------------------------------------------------------------------------
 Lightline~
 
     To enable [lightline](https://github.com/itchyny/lightline.vim) color scheme,
@@ -125,7 +131,7 @@ E.g.~
     colorscheme gruvbox-material
     let g:lightline.colorscheme = 'gruvbox_material'
 <
-
+------------------------------------------------------------------------------
                                                  *g:gruvbox_material_background*
 
 The background contrast used in this color scheme.
@@ -137,7 +143,7 @@ E.g.~
 >
     let g:gruvbox_material_background = 'hard'
 <
-
+------------------------------------------------------------------------------
                                      *g:gruvbox_material_disable_italic_comment*
 
 By default, italic is enabled in `Comment`. To disable italic in `Comment`, set this
@@ -147,7 +153,7 @@ E.g.~
 >
     let g:gruvbox_material_disable_italic_comment = 1
 <
-
+------------------------------------------------------------------------------
                                                 *g:gruvbox_material_enable_bold*
 
 By default, bold is only enabled in the highlight groups I think are necessary,
@@ -158,7 +164,7 @@ E.g.~
 >
     let g:gruvbox_material_enable_bold = 1
 <
-
+------------------------------------------------------------------------------
                                      *g:gruvbox_material_lightline_disable_bold*
 
 By default, bold is enabled in lightline color scheme. To disable bold in lightline
@@ -168,7 +174,7 @@ E.g.~
 >
     let g:gruvbox_material_lightline_disable_bold = 1
 <
-
+------------------------------------------------------------------------------
                                      *g:gruvbox_material_transparent_background*
 
 To use transparent background, set this option to `1`.
@@ -181,6 +187,7 @@ E.g.~
 ==============================================================================
 FAQ                                                       *gruvbox-material-faq*
 
+------------------------------------------------------------------------------
 Q:~
     It doesn't work as expected.
 
@@ -201,14 +208,14 @@ A:~
     enabled is very likely to cause colors to break. If any color is broken, you
     can enable the color scheme in your vimrc instead of after vim startup.
 
-
+------------------------------------------------------------------------------
 Q:~
     What's your status line configuration?
 
 A:~
     Check this [gist](https://gist.github.com/sainnhe/b8240bc047313fd6185bb8052df5a8fb).
 
-
+------------------------------------------------------------------------------
 Q:~
     What's the font used here?
 
