@@ -154,17 +154,6 @@ E.g.~
     let g:gruvbox_material_disable_italic_comment = 1
 <
 ------------------------------------------------------------------------------
-                                                *g:gruvbox_material_enable_bold*
-
-By default, bold is only enabled in the highlight groups I think are necessary,
-but you can use this option to enable bold like the original gruvbox. To enable
-this feature, set this option to `1`.
-
-E.g.~
->
-    let g:gruvbox_material_enable_bold = 1
-<
-------------------------------------------------------------------------------
                                      *g:gruvbox_material_lightline_disable_bold*
 
 By default, bold is enabled in lightline color scheme. To disable bold in lightline
