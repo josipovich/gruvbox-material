@@ -511,8 +511,8 @@ hi! link NERDTreeDir Blue
 hi! link NERDTreeDirSlash Orange
 hi! link NERDTreeOpenable Orange
 hi! link NERDTreeClosable Orange
-hi! link NERDTreeFile White
-hi! link NERDTreeExecFile Yellow
+hi! link NERDTreeFile Yellow
+hi! link NERDTreeExecFile Red
 hi! link NERDTreeUp Grey
 hi! link NERDTreeCWD Orange
 hi! link NERDTreeHelp LightGrey
