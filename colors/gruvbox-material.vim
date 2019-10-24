@@ -511,10 +511,10 @@ hi! link NERDTreeDir BlueBold
 hi! link NERDTreeDirSlash Orange
 hi! link NERDTreeOpenable Orange
 hi! link NERDTreeClosable Orange
-hi! link NERDTreeFile Yellow
-hi! link NERDTreeExecFile WhiteBold
+hi! link NERDTreeFile White
+hi! link NERDTreeExecFile YellowBold
 hi! link NERDTreeUp Grey
-hi! link NERDTreeCWD Orange
+hi! link NERDTreeCWD OrangeBold
 hi! link NERDTreeHelp LightGrey
 hi! link NERDTreeToggleOn Green
 hi! link NERDTreeToggleOff Red
@@ -583,7 +583,7 @@ hi! link UndotreeHead Yellow
 hi! link UndotreeBranch Yellow
 hi! link UndotreeCurrent Aqua
 hi! link UndotreeSavedSmall Purple
-hi! link javascriptCommentTodo White
+hi! link javascriptCommentTodo BlueBold
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   if &background ==# 'dark'
