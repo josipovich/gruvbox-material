@@ -1,4 +1,4 @@
-" Name:         Gruvbox Material
+" Namd:         Gruvbox Material
 " Description:  Gruvbox with Material Palette
 " Author:       Sainnhepark <sainnhe@gmail.com>
 " Maintainer:   Sainnhepark <sainnhe@gmail.com>
@@ -126,8 +126,8 @@ hi! link javaScriptIdentifier Red
 hi! link javaScriptMember Blue
 hi! link javaScriptNumber Purple
 hi! link javaScriptNull Purple
-hi! link javaScriptParens White
-hi! link javaScriptBraces White
+hi! link javaScriptParens Yellow
+hi! link javaScriptBraces Yellow
 hi! link javascriptImport Aqua
 hi! link javascriptExport Aqua
 hi! link javascriptClassKeyword Aqua
@@ -176,7 +176,7 @@ hi! link javascriptDocTags LightGrey
 hi! link javascriptDocNotation LightGrey
 hi! link javascriptDocParamType LightGrey
 hi! link javascriptDocNamedParamType LightGrey
-hi! link javascriptBrackets White
+hi! link javascriptBrackets Yellow
 hi! link javascriptDOMElemAttrs White
 hi! link javascriptDOMEventMethod White
 hi! link javascriptDOMNodeMethod White
@@ -507,12 +507,12 @@ hi! link netrwList Aqua
 hi! link netrwHelpCmd Blue
 hi! link netrwCmdSep LightGrey
 hi! link netrwVersion Orange
-hi! link NERDTreeDir Blue
+hi! link NERDTreeDir BlueBold
 hi! link NERDTreeDirSlash Orange
 hi! link NERDTreeOpenable Orange
 hi! link NERDTreeClosable Orange
 hi! link NERDTreeFile Yellow
-hi! link NERDTreeExecFile Red
+hi! link NERDTreeExecFile WhiteBold
 hi! link NERDTreeUp Grey
 hi! link NERDTreeCWD Orange
 hi! link NERDTreeHelp LightGrey
@@ -583,6 +583,7 @@ hi! link UndotreeHead Yellow
 hi! link UndotreeBranch Yellow
 hi! link UndotreeCurrent Aqua
 hi! link UndotreeSavedSmall Purple
+hi! link javascriptCommentTodo White
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   if &background ==# 'dark'
