@@ -507,14 +507,14 @@ hi! link netrwList Aqua
 hi! link netrwHelpCmd Blue
 hi! link netrwCmdSep LightGrey
 hi! link netrwVersion Orange
-hi! link NERDTreeDir Green
-hi! link NERDTreeDirSlash Aqua
+hi! link NERDTreeDir Blue
+hi! link NERDTreeDirSlash Orange
 hi! link NERDTreeOpenable Orange
 hi! link NERDTreeClosable Orange
 hi! link NERDTreeFile White
 hi! link NERDTreeExecFile Yellow
 hi! link NERDTreeUp Grey
-hi! link NERDTreeCWD Aqua
+hi! link NERDTreeCWD Orange
 hi! link NERDTreeHelp LightGrey
 hi! link NERDTreeToggleOn Green
 hi! link NERDTreeToggleOff Red
